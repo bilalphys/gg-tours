@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Explore Northern Israel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Explore Northern Israel</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="things-to-do.html">Things to Do</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="nature-outdoor.html">Nature & Outdoor</a></li>
+                <li><a href="culture-heritage.html">Culture & Heritage</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like more information about your trip to Northern Israel, feel free to reach out to us. We're happy to assist you with recommendations, itineraries, and any other inquiries!</p>
+
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+            <form action="submit_form.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject of your inquiry" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+
+        <!-- Contact Information Section -->
+        <div class="contact-info">
+            <h3>Other Ways to Reach Us</h3>
+            <p>If you'd prefer to reach us directly, you can use the following contact methods:</p>
+            <ul>
+                <li><strong>Phone:</strong> +972 4-123-4567</li>
+                <li><strong>Email:</strong> info@explorenorthernisrael.com</li>
+                <li><strong>Address:</strong> 123 Tourism Street, Safed, Israel</li>
+            </ul>
+
+            <!-- Social Media Links -->
+            <div class="social-media">
+                <h4>Follow Us:</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <p>Follow us on: 
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a> | 
+                <a href="#">YouTube</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
